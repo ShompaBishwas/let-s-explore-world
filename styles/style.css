@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+/*Common section*/
+.btn-primary{
+    background-color: #FF5400;
+    color: white;
+}
+/*Header Section*/
+.nav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    width: 50%;
+    object-fit: cover;
+}
+.header-logo p{
+    padding-left: 10px;
+    color: #131318;
+    font-weight: 800;
+    font-size: 25px;
+}
+.world{
+    color: #23a823;
+}
+.lets{
+    color: red;
+}
+.header-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.header-content a{
+    text-decoration: none;
+    color: #424247;
+}
+.home a{
+    color: red;
+}
+.icons{
+    display: none;
+}
+
+/*Banner Section*/
+.banner{
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.banner-section{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    bottom: 5%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.banner-section h3{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.banner-section p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.input-content{
+    display: flex;
+    gap: 15px;
+    background: rgba(255, 255, 255, .4);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 60px;
+    color: #13131880;
+    font-weight: 700;
+}
+input{
+    height: 35px;
+    width: 130px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #FFF
+}
+.image img{
+    width: 100%;
+    display: block;
+}
+.input4{
+    position: relative;
+    font-size: 15px;
+}
+.input2{
+    position: relative;
+    font-size: 15px;
+}
+.input3{
+    position: relative;
+    font-size: 15px;
+}
+.glass{
+    color:#13131880;
+    position: absolute;
+    padding-top: 10px ;
+    padding-left: 15px;
+}
+.down-fa{
+    position: absolute;
+    padding-top: 9px;
+    padding-left: 107px;
+}
