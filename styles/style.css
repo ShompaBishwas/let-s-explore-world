@@ -60,7 +60,7 @@ body {
 }
 
 .icons {
-    display: none;
+    visibility: hidden;
 }
 
 /*Banner Section Styles*/
