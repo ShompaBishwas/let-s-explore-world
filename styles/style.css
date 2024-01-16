@@ -158,7 +158,6 @@ input {
 
 .tour-text {
     width: 50%;
-    background-color: antiquewhite;
     border-radius: 16px;
 
 }
@@ -201,6 +200,7 @@ input {
 .destination-section {
     max-width: 1200px;
     margin: 30px auto 0;
+    position: relative;
 }
 
 .destination-text {
@@ -225,6 +225,7 @@ input {
 .destination-image {
     display: grid;
     row-gap: 15px;
+    position: relative;
 }
 
 .first {
@@ -232,6 +233,7 @@ input {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     object-fit: cover;
+    position: relative;
 }
 
 .second {
@@ -247,23 +249,81 @@ input {
     object-fit: cover;
 }
 
-#img1,
-#img2 {
+.img1 {
     width: 592px;
     height: 100%;
+    position: relative;
 }
 
-#img3 {
+.img2 {
+    width: 592px;
+    height: 100%;
+    position: relative;
+}
+
+.img3 {
     width: 420px;
     height: 286px;
+    position: relative;
 }
 
-#img6 {
+.img4 {
+    position: relative;
+}
+
+.img6 {
     width: 490px;
     height: 300px;
+    position: relative;
 }
 
-#img7 {
+.img7 {
     width: 694px;
     height: 300px;
+    position: relative;
+}
+
+.img-div1 {
+    position: absolute;
+    top: 38%;
+    left: 18%;
+}
+.img-div2{
+    position: absolute;
+    top: 37%;
+    left: 70%;
+}
+.img-div3{
+    position: absolute;
+    top: 48%;
+    left: 13%;
+}
+.img-div4{
+    position: absolute;
+    top: 45%;
+    left: 52%;
+}
+.img-div5{
+    position: absolute;
+    top: 46%;
+    left: 85%;
+}
+.img-div6{
+    position: absolute;
+    top: 81%;
+    left: 13%;
+}
+.img-div7{
+    position: absolute;
+    top: 79%;
+    left: 65%;
+}
+.maldives, .indonesia, .srilanka, .america, .kasmir,
+.bangladesh, .bandarban {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
 }
