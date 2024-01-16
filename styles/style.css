@@ -288,42 +288,111 @@ input {
     top: 38%;
     left: 18%;
 }
-.img-div2{
+
+.img-div2 {
     position: absolute;
     top: 37%;
     left: 70%;
 }
-.img-div3{
+
+.img-div3 {
     position: absolute;
     top: 48%;
     left: 13%;
 }
-.img-div4{
+
+.img-div4 {
     position: absolute;
     top: 45%;
     left: 52%;
 }
-.img-div5{
+
+.img-div5 {
     position: absolute;
     top: 46%;
     left: 85%;
 }
-.img-div6{
+
+.img-div6 {
     position: absolute;
     top: 81%;
     left: 13%;
 }
-.img-div7{
+
+.img-div7 {
     position: absolute;
     top: 79%;
     left: 65%;
 }
-.maldives, .indonesia, .srilanka, .america, .kasmir,
-.bangladesh, .bandarban {
+
+.maldives,
+.indonesia,
+.srilanka,
+.america,
+.kasmir,
+.bangladesh,
+.bandarban {
     color: white;
     position: absolute;
     font-size: 20px;
     text-align: center;
     font-size: 25px;
     font-weight: 800;
+}
+
+/*Choose Section Styles*/
+.choose-section {
+    max-width: 1200px;
+    margin: 30px auto 0;
+}
+
+.choose-text {
+    text-align: center;
+    padding: 0 60px;
+}
+
+.choose-text h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-text p {
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 26px; 
+}
+
+.hotel {
+    width: 565px;
+    height: 260px;
+    background: #e1ffdfb6;
+    padding: 20px 10px 0 10px;
+    border-radius: 16px;
+}
+.map{
+    width: 565px;
+    height: 260px;
+    background: #daeff5b6;
+    padding: 20px 10px 0 10px;
+    border-radius: 16px;
+    
+}
+.price{
+    
+    width: 565px;
+    height: 260px;
+    background: #faeaf5b6;
+    margin: 0 50%;
+    margin-top: 30px;
+    padding: 20px 10px 0 10px;
+    border-radius: 16px;
+    margin-bottom: 30px;
 }

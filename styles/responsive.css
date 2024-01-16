@@ -1,4 +1,5 @@
 @media screen and (max-width: 600px) {
+
     /*Header Section Styles*/
     .header {
         display: flex;
@@ -8,13 +9,14 @@
         display: none;
     }
 
-    .icons{
+    .icons {
         visibility: inherit;
         padding-top: 35px;
         padding-right: 10px;
         justify-content: center;
         align-items: center;
     }
+
     /*Banner Section Style*/
     .image {
         position: relative;
@@ -36,7 +38,7 @@
         left: 0;
         padding-right: 50px;
         text-align: center;
-        transform: translate(0 , 0);
+        transform: translate(0, 0);
     }
 
     .banner-head {
@@ -53,6 +55,7 @@
         padding-bottom: 10px;
 
     }
+
     .banner-section p {
         color: #FFF;
         align-items: center;
@@ -74,79 +77,146 @@
         text-align: center;
         background-color: #FFF;
     }
+
     /*Tour Section Styles*/
-    .tour-section{
+    .tour-section {
         flex-direction: column;
         margin-top: 0;
     }
-    .tour-text, .tour-image{
+
+    .tour-text,
+    .tour-image {
         width: 100%;
         margin-top: 15px;
     }
-    .tour-text h3{
+
+    .tour-text h3 {
         font-size: 20px;
     }
-    .tour-text p{
+
+    .tour-text p {
         font-size: 14px;
     }
+
     /*Our Destination Section Styles*/
-    .destination-text h{
+    .destination-text h {
         font-style: normal;
         font-size: 5px;
     }
-    .destination-text p{
+
+    .destination-text p {
         padding: 0;
     }
-    .destination{
+
+    .destination {
         grid-template-columns: 1fr;
     }
-    .first{
+
+    .first {
         grid-template-columns: 1fr;
     }
-    .second{
+
+    .second {
         grid-template-columns: 1fr;
     }
-    .third{
+
+    .third {
         grid-template-columns: 1fr;
     }
-    .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7 {
         width: 100%;
         row-gap: 0;
         height: 176px;
     }
-    .img-div1{
+
+    .img-div1 {
         position: absolute;
         top: 15%;
         left: 30%;
     }
-    .img-div2{
+
+    .img-div2 {
         position: absolute;
         top: 65%;
         left: 32%;
     }
-    .img-div3{
+
+    .img-div3 {
         position: absolute;
         top: 34%;
         left: 35%;
     }
-    .img-div4{
+
+    .img-div4 {
         position: absolute;
         top: 47%;
         left: 35%;
     }
-    .img-div5{
+
+    .img-div5 {
         position: absolute;
         top: 63%;
         left: 35%;
     }
-    .img-div6{
+
+    .img-div6 {
         position: absolute;
         top: 77%;
         left: 32%;
     }
-    .img-div7{
+
+    .img-div7 {
         position: absolute;
         top: 90%;
         left: 35%;
+    }
+
+    /*Choose Section Styles*/
+    .choose-text {
+        padding: 0;
+        text-align: center;
+    }
+
+    .choose-text h4 {
+        font-size: 15px;
+    }
+
+    .choose-text p {
+        font-size: 10px;
+    }
+
+    .choose-card {
+        grid-template-columns: 1fr;
+        padding: 0;
+        text-align: left;
+        width: 100%;
+    }
+    .hotel{
+        margin: 0;
+        padding-top: 10px;
+        text-align: left;
+        width: 400px;
+        height: 100%;
+    }
+    .map{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        width: 400px;
+        height: 100%;
+    }
+    .price {
+        margin: 0;
+        padding-top: 10ox;
+        text-align: left;
+        width: 400px;
+        height: 100%;
     }
 }
