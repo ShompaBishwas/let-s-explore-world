@@ -8,8 +8,8 @@
         display: none;
     }
 
-    .icons {
-        display: block;
+    .icons{
+        visibility: inherit;
         padding-top: 35px;
         padding-right: 10px;
         justify-content: center;
