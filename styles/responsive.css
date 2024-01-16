@@ -89,4 +89,64 @@
     .tour-text p{
         font-size: 14px;
     }
+    /*Our Destination Section Styles*/
+    .destination-text h{
+        font-style: normal;
+        font-size: 5px;
+    }
+    .destination-text p{
+        padding: 0;
+    }
+    .destination{
+        grid-template-columns: 1fr;
+    }
+    .first{
+        grid-template-columns: 1fr;
+    }
+    .second{
+        grid-template-columns: 1fr;
+    }
+    .third{
+        grid-template-columns: 1fr;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+        width: 100%;
+        row-gap: 0;
+        height: 176px;
+    }
+    .img-div1{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+    }
+    .img-div2{
+        position: absolute;
+        top: 65%;
+        left: 32%;
+    }
+    .img-div3{
+        position: absolute;
+        top: 34%;
+        left: 35%;
+    }
+    .img-div4{
+        position: absolute;
+        top: 47%;
+        left: 35%;
+    }
+    .img-div5{
+        position: absolute;
+        top: 63%;
+        left: 35%;
+    }
+    .img-div6{
+        position: absolute;
+        top: 77%;
+        left: 32%;
+    }
+    .img-div7{
+        position: absolute;
+        top: 90%;
+        left: 35%;
+    }
 }
