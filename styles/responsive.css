@@ -74,4 +74,19 @@
         text-align: center;
         background-color: #FFF;
     }
+    /*Tour Section Styles*/
+    .tour-section{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .tour-text, .tour-image{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .tour-text h3{
+        font-size: 20px;
+    }
+    .tour-text p{
+        font-size: 14px;
+    }
 }

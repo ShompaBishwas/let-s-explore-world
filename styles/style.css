@@ -3,82 +3,97 @@
 body {
     font-family: 'Merriweather', serif;
 }
-/*Common section*/
-.btn-primary{
+
+/*Common section Styles*/
+.btn-primary {
     background-color: #FF5400;
     color: white;
+    border-radius: 8px;
 }
-/*Header Section*/
-.nav-container{
+
+/*Header Section Styles*/
+.nav-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
 }
-.header-logo{
+
+.header-logo {
     display: flex;
     width: 50%;
     object-fit: cover;
 }
-.header-logo p{
+
+.header-logo p {
     padding-left: 10px;
     color: #131318;
     font-weight: 800;
     font-size: 25px;
 }
-.world{
+
+.world {
     color: #23a823;
 }
-.lets{
+
+.lets {
     color: red;
 }
-.header-content{
+
+.header-content {
     width: 50%;
     display: flex;
     justify-content: space-between;
     padding: 10px;
     font-weight: 400;
     font-size: 18px;
-    
+
 }
-.header-content a{
+
+.header-content a {
     text-decoration: none;
     color: #424247;
 }
-.home a{
+
+.home a {
     color: red;
 }
-.icons{
+
+.icons {
     display: none;
 }
 
-/*Banner Section*/
-.banner{
+/*Banner Section Styles*/
+.banner {
     max-width: 1200px;
     position: relative;
     margin: 0 auto;
     margin-top: 20px;
 }
-.banner-section{
+
+.banner-section {
     position: absolute;
     color: white;
     font-size: 20px;
     bottom: 5%;
     left: 50%;
     text-align: center;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.banner-section h3{
+
+.banner-section h3 {
     font-weight: 800;
     font-size: 50px;
     margin-bottom: 0;
 }
-.banner-section p{
+
+.banner-section p {
     font-size: 15px;
     font-weight: 400;
     margin-top: 5px;
 }
-.input-content{
+
+.input-content {
     display: flex;
     gap: 15px;
     background: rgba(255, 255, 255, .4);
@@ -88,7 +103,8 @@ body {
     color: #13131880;
     font-weight: 700;
 }
-input{
+
+input {
     height: 35px;
     width: 130px;
     border-radius: 8px;
@@ -96,30 +112,83 @@ input{
     text-align: center;
     background-color: #FFF
 }
-.image img{
+
+.image img {
     width: 100%;
     display: block;
 }
-.input4{
+
+.input4 {
     position: relative;
     font-size: 15px;
 }
-.input2{
+
+.input2 {
     position: relative;
     font-size: 15px;
 }
-.input3{
+
+.input3 {
     position: relative;
     font-size: 15px;
 }
-.glass{
-    color:#13131880;
+
+.glass {
+    color: #13131880;
     position: absolute;
-    padding-top: 10px ;
+    padding-top: 10px;
     padding-left: 15px;
 }
-.down-fa{
+
+.down-fa {
     position: absolute;
     padding-top: 9px;
     padding-left: 107px;
+}
+
+/*Tour Section Styles*/
+
+.tour-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.tour-text {
+    width: 50%;
+    background-color: antiquewhite;
+    border-radius: 16px;
+
+}
+.tour-text h3 {
+    color: #131318;
+    font-size: 40px;
+}
+
+.tour-text p {
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px ;
+    line-height: 25px;
+}
+
+.tour-text ul>li {
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px ;
+}
+
+.btn{
+    padding: 14px 35px;
+    border: none;
+}
+.tour-image {
+    width: 50%;
+}
+.tour-image img{
+    width: 100%;
 }
