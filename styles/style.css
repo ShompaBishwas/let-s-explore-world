@@ -162,6 +162,7 @@ input {
     border-radius: 16px;
 
 }
+
 .tour-text h3 {
     color: #131318;
     font-size: 40px;
@@ -171,25 +172,98 @@ input {
     color: #131318b3;
     font-size: 16px;
     font-weight: 400;
-    padding-bottom: 20px ;
-    line-height: 30px;
-    padding-right: 20px ;
+    padding-bottom: 20px;
+    line-height: 25px;
+    padding-right: 20px;
 }
 
 .tour-text ul>li {
     color: #131318b3;
     font-size: 16px;
     font-weight: 400;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
 }
 
-.btn{
+.btn {
     padding: 14px 35px;
     border: none;
 }
+
 .tour-image {
     width: 50%;
 }
-.tour-image img{
+
+.tour-image img {
     width: 100%;
+}
+
+/*Destination Section Styles*/
+.destination-section {
+    max-width: 1200px;
+    margin: 30px auto 0;
+}
+
+.destination-text {
+    text-align: center;
+}
+
+.destination-text h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.destination-text p {
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 170px;
+}
+
+.destination-image {
+    display: grid;
+    row-gap: 15px;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    object-fit: cover;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    object-fit: cover;
+}
+
+.third {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    object-fit: cover;
+}
+
+#img1,
+#img2 {
+    width: 592px;
+    height: 100%;
+}
+
+#img3 {
+    width: 420px;
+    height: 286px;
+}
+
+#img6 {
+    width: 490px;
+    height: 300px;
+}
+
+#img7 {
+    width: 694px;
+    height: 300px;
 }
