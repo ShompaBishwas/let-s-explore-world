@@ -238,6 +238,7 @@
 
     .upcoming-list {
         grid-template-columns: 1fr;
+        overflow-x: hidden;
     }
 
     .upcoming-image1,
@@ -249,6 +250,7 @@
 
     .upcoming-list2 {
         grid-template-columns: 1fr;
+        overflow-x: hidden;
     }
 
     .upcoming-image4,
