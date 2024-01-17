@@ -99,12 +99,12 @@
     }
 
     /*Our Destination Section Styles*/
-    .destination-text h {
-        font-style: normal;
-        font-size: 5px;
+    .destination-text h3{
+        font-size: 15px;
     }
 
     .destination-text p {
+        font-size: 10px;
         padding: 0;
     }
 
@@ -185,7 +185,7 @@
         text-align: center;
     }
 
-    .choose-text h4 {
+    .choose-text h3 {
         font-size: 15px;
     }
 
