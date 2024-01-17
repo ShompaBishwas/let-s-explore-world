@@ -345,9 +345,16 @@
         color: #FFF;
         border-radius: 16px;
         top: 49%;
-        left: 40%;
+        left: 39%;
     }
     .news-discount h5{
         font-size: 21px;
+    }
+    /*Footer Section*/
+    .footer-p{
+        padding: 0;
+    }
+    .footer-line{
+        width: 100%;
     }
 }
