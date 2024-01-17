@@ -477,3 +477,136 @@ input {
     padding-bottom: 20px;
 }
 
+/*Simple Perfect Place Section Styles*/
+.perfect-place {
+    max-width: 1200px;
+    margin: 30px auto 0;
+}
+
+.simple-perfect-place {
+    display: flex;
+}
+
+.perfect-text {
+    text-align: left;
+    width: 50%;
+}
+
+.perfect-text h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.perfect-text p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.perfect-text ul>li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.perfect-text button {
+    border: none;
+    padding: 15px 25px;
+    margin-top: 5px;
+}
+
+.perfect-img {
+    position: relative;
+    width: 50%;
+
+}
+
+.perfect-img h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    right: 25%;
+    text-align: center;
+}
+
+.perfect-img img {
+    position: relative;
+}
+
+.edit-img {
+    filter: brightness(50%);
+    width: 610px;
+    height: 377px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 0;
+}
+
+.line {
+    width: 562px;
+    height: 4px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    position: absolute;
+    top: 86%;
+    left: 4%;
+}
+
+.line2 {
+    width: 75px;
+    height: 4px;
+    border-radius: 8px;
+    background: #FFF;
+    position: absolute;
+    top: 86%;
+    left: 4%;
+}
+
+.frame1 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    color: #FFF;
+    top: 80%;
+    left: 4%;
+}
+
+.frame1 p {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    color: #FFF;
+    top: -60%;
+    left: 120%;
+}
+
+.volume {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    color: #FFF;
+    top: 80%;
+    left: 482px;
+}
+
+.max {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    color: #FFF;
+    top: 80%;
+    left: 527px;
+}
+
+.frame2 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    color: #FFF;
+    top: 80%;
+    left: 560px;
+}
