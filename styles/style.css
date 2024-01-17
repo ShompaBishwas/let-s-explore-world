@@ -363,11 +363,12 @@ input {
     font-weight: 400;
     line-height: 26px;
 }
-.choose-card{
+
+.choose-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 30px;
-    gap: 26px; 
+    gap: 26px;
 }
 
 .hotel {
@@ -377,16 +378,18 @@ input {
     padding: 20px 10px 0 10px;
     border-radius: 16px;
 }
-.map{
+
+.map {
     width: 565px;
     height: 260px;
     background: #daeff5b6;
     padding: 20px 10px 0 10px;
     border-radius: 16px;
-    
+
 }
-.price{
-    
+
+.price {
+
     width: 565px;
     height: 260px;
     background: #faeaf5b6;
@@ -396,58 +399,81 @@ input {
     border-radius: 16px;
     margin-bottom: 30px;
 }
+
 /*Upcoming Tour Section Styles*/
-.upcoming-tour-section{
+.upcoming-tour-section {
     max-width: 1200px;
     margin: 30px auto 0;
 }
-.upcoming-tour{
+
+.upcoming-tour {
     text-align: center;
     padding: 0 50px;
 }
-.upcoming-list{
+
+.upcoming-list {
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin-bottom: 15px;
 }
-.upcoming-image1, .upcoming-image2, .upcoming-image3{
+
+.upcoming-image1,
+.upcoming-image2,
+.upcoming-image3 {
     background-color: #dbdbdb;
     width: 370px;
     height: 400px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
-.upcoming-image1 img, .upcoming-image2 img, .upcoming-image3 img{
+
+.upcoming-image1 img,
+.upcoming-image2 img,
+.upcoming-image3 img {
     width: 250px;
     height: 200px;
     padding: 65px 65px 0 65px;
 }
-.upcoming-image1 p, .upcoming-image2 p, .upcoming-image3 p{
+
+.upcoming-image1 p,
+.upcoming-image2 p,
+.upcoming-image3 p {
     font-size: 17px;
     padding-left: 65px;
     padding-bottom: 20px;
 }
-.upcoming-list2{
+
+.upcoming-list2 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
-.upcoming-image4, .upcoming-image5, .upcoming-image6{
+
+.upcoming-image4,
+.upcoming-image5,
+.upcoming-image6 {
     background-color: #dbdbdb;
     width: 370px;
     height: 400px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
-.upcoming-image4 img, .upcoming-image5 img, .upcoming-image6 img{
+
+.upcoming-image4 img,
+.upcoming-image5 img,
+.upcoming-image6 img {
     width: 250px;
     height: 200px;
     padding: 65px 65px 0 65px;
 }
-.upcoming-image4 p, .upcoming-image5 p, .upcoming-image6 p{
+
+.upcoming-image4 p,
+.upcoming-image5 p,
+.upcoming-image6 p {
     font-size: 17px;
     padding-left: 65px;
     padding-bottom: 20px;
 }
+
