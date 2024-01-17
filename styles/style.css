@@ -411,6 +411,18 @@ input {
     padding: 0 50px;
 }
 
+.upcoming-tour h3 {
+    font-size: 40px;
+    color: #131318;
+    font-weight: 800;
+}
+
+.upcoming-tour p {
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .upcoming-list {
     margin-top: 40px;
     display: grid;
